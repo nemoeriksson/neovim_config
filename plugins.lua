@@ -42,17 +42,32 @@ require("lazy").setup({
 	"junegunn/fzf.vim",
 	
 	-- themes
+	"ramojus/mellifluous.nvim",
+	"theniceboy/nvim-deus",
+	"AlexvZyl/nordic.nvim",
+	"everviolet/nvim",
 	"rose-pine/neovim",
 	{ "ellisonleao/gruvbox.nvim", priority = 1000 , config = true, opts = ...},
+	{ "savq/melange-nvim" },
+	{ "EdenEast/nightfox.nvim"} ,
+	"CodeGradox/onehalf-lush",
+	"rmehri01/onenord.nvim",
+	
+	-- end of themes
+	
+	-- Cursor animation
+	{ 
+		"sphamba/smear-cursor.nvim",
+		opts = {},
+	},
+	{
+		'nvim-lualine/lualine.nvim',
+		dependencies = { 'nvim-tree/nvim-web-devicons' }
+	},
 	{
 		"mason-org/mason.nvim",
 		opts = {}
 	},
-	{
-		"savq/melange-nvim"
-	},
-	-- end of themes
-	
 	"ap/vim-css-color",
 	"neovim/nvim-lspconfig",
 	{

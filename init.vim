@@ -39,4 +39,8 @@ nnoremap <A-S-l> <C-w>l
 nnoremap <A-S-n> gT
 nnoremap <A-S-m> gt
 
+lua << END
+require('lualine').setup()
+END
+
 colorscheme melange
