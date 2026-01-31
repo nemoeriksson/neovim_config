@@ -8,26 +8,28 @@ return {
 
 		local dashboard = require("alpha.themes.dashboard")
 		dashboard.section.header.val = {
-			[[              .,-:;//;:=,               ]],
-			[[          . :H@@@MM@M#H/.,+%;,          ]],
-			[[       ,/X+ +M@@M@MM%=,-%HMMM@X/,       ]],
-			[[     -+@MM; $M@@MH+-,;XMMMM@MMMM@+-     ]],
-			[[    ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.   ]],
-			[[  ,%MM@@MH ,@%=             .---=-=:=,. ]],
-			[[  =@#@@@MX.,                -%HX$$%%%:; ]],
-			[[ =-./@M@M$                   .;@MMMM@MM:]],
-			[[ X@/ -$MM/                    . +MM@@@M$]],
-			[[,@M@H: :@:                    . =X#@@@@-]],
-			[[,@@@MMX, .                    /H- ;@M@M=]],
-			[[.H@@@@M@+,                    %MM+..%#$.]],
-			[[ /MMMM@MMH/.                  XM@MH; =; ]],
-			[[  /%+%$XHH@$=              , .H@@@@MX,  ]],
-			[[   .=--------.           -%H.,@@@@@MX,  ]],
-			[[   .%MM@@@HHHXX$$$%+- .:$MMX =M@@MM%.   ]],
-			[[     =XMMM@MM@MM#H;,-+HMM@M+ /MMMX=     ]],
-			[[       =%@M@M#@$-.=$@MM@@@M; %M%=       ]],
-			[[         ,:+$+-,/H#MMMMMMM@= =,         ]],
-			[[               =++%%%%+/:-.             ]],
+			[[                     .,-:;//;:=,                    ]],
+			[[                 . :H@@@MM@M#H/.,+%;,               ]],
+			[[              ,/X+ +M@@M@MM%=,-%HMMM@X/,            ]],
+			[[            -+@MM; $M@@MH+-,;XMMMM@MMMM@+-          ]],
+			[[           ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.        ]],
+			[[         ,%MM@@MH ,@%=             .---=-=:=,.      ]],
+			[[         =@#@@@MX.,                -%HX$$%%%:;      ]],
+			[[        =-./@M@M$                   .;@MMMM@MM:     ]],
+			[[        X@/ -$MM/                    . +MM@@@M$     ]],
+			[[       ,@M@H: :@:                    . =X#@@@@-     ]],
+			[[       ,@@@MMX, .                    /H- ;@M@M=     ]],
+			[[       .H@@@@M@+,                    %MM+..%#$.     ]],
+			[[        /MMMM@MMH/.                  XM@MH; =;      ]],
+			[[         /%+%$XHH@$=              , .H@@@@MX,       ]],
+			[[          .=--------.           -%H.,@@@@@MX,       ]],
+			[[          .%MM@@@HHHXX$$$%+- .:$MMX =M@@MM%.        ]],
+			[[            =XMMM@MM@MM#H;,-+HMM@M+ /MMMX=          ]],
+			[[              =%@M@M#@$-.=$@MM@@@M; %M%=            ]],
+			[[                ,:+$+-,/H#MMMMMMM@= =,              ]],
+			[[                      =++%%%%+/:-.                  ]],
+			[[]],
+			[[What was left of my sanity implored me not to enter]],
 		}
 
 		dashboard.section.buttons.val = {
@@ -40,7 +42,7 @@ return {
 		}
 
 		local function footer()
-			return 'What was left of my sanity implored me not to enter'	
+			return ''	
 		end
 
 		dashboard.section.footer.val = footer()
